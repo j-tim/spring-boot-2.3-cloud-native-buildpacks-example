@@ -10,7 +10,7 @@ Example repository by my blog post:
 Verify Docker and Pack are working:
 
 ```shell script
- pack version
+pack version
 v0.6.0 (git sha: 109b629d388cec0ed3836b9fed6717727a9187c1)
 ```
 
@@ -141,6 +141,6 @@ When you encounter one of the following errors make sure you package name and or
 Make sure pack is installed and added to your $PATH:
 
 ```shell script
- pack version
+pack version
 v0.6.0 (git sha: 109b629d388cec0ed3836b9fed6717727a9187c1)
 ```
