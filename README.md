@@ -5,19 +5,18 @@ Example repository by my blog post:
 ## Prerequisites
 
 * [Docker](https://hub.docker.com/search?type=edition&offering=community) is installed
-* [Pack (Cloud Native Buildpacks)](https://buildpacks.io/docs/install-pack/) is installed
 
-Verify Docker and Pack are working:
-
-```shell script
-pack version
-v0.6.0 (git sha: 109b629d388cec0ed3836b9fed6717727a9187c1)
-```
+Verify Docker and Docker Compose are working:
 
 ```shell script
 docker -v
-Docker version 19.03.5, build 633a0ea838
+docker-compose version 1.25.3, build d4d1b42b
 ```
+
+```shell script
+docker-compose -v
+````
+
 
 ## Build the Cloud native image for your Spring Boot application 
 
@@ -124,13 +123,4 @@ When you encounter one of the following errors make sure you package name and or
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
-```
-
-## Step > Running detector is 'hanging'
-
-Make sure pack is installed and added to your $PATH:
-
-```shell script
-pack version
-v0.6.0 (git sha: 109b629d388cec0ed3836b9fed6717727a9187c1)
 ```
