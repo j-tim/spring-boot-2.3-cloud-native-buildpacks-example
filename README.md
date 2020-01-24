@@ -1,6 +1,6 @@
 # Spring Boot 2.3.0 Milestone 1 Cloud Native Buildpacks example
 
-Example repository by my blog post:  
+Example repository by my blog post: [First look at Cloud Native Buildpacks support in Spring Boot 2.3 Milestone 1](https://medium.com/@TimvanBaarsen/first-look-at-cloud-native-buildpacks-support-in-spring-boot-2-3-milestone-1-ece8e72ed93f)  
 
 ## Prerequisites
 
