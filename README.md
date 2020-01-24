@@ -19,12 +19,6 @@ docker -v
 Docker version 19.03.5, build 633a0ea838
 ```
 
-## Show the 
-
-```shell script
-./mvnw spring-boot:build-image
-```
-
 ## Build the Cloud native image for your Spring Boot application 
 
 ```shell script
@@ -34,11 +28,8 @@ Docker version 19.03.5, build 633a0ea838
 ## Show the build Docker image
 
 ```shell script
-docker images 
-REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
-cloud-native-buildpacks-example   0.0.1-SNAPSHOT      48d2171e0777        14 seconds ago      226MB
-cloudfoundry/cnb                  0.0.43-bionic       526111e562c1        10 days ago         731MB
-cloudfoundry/run                  base-cnb            7cd3a43a4c98        2 months ago        71.2MB
+docker images | grep cloud-native
+cloud-native-buildpacks-example   0.0.1-SNAPSHOT      2c7f20cd9123        4 seconds ago       226MB 
 ```
 ## Run the Cloud Native Container (in the background)
 
@@ -80,7 +71,6 @@ b39e09fe68ce        cloud-native-buildpacks-example:0.0.1-SNAPSHOT   "/cnb/lifec
   }
 }
 ```
-
 
 ## Stop the container
 
