@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   spring-boot-app:
-    image: cloud-native-buildpacks-example:0.0.1-SNAPSHOT
+    image: jtim/cloud-native-buildpacks-example
     container_name: springbootcontainer
     ports:
       - 8080:8080
